@@ -1,4 +1,4 @@
-🧪 Experiment 1 – Component Lazy Loading 🎯 Aim
+<img width="1877" height="840" alt="Screenshot 2026-02-19 150251" src="https://github.com/user-attachments/assets/c839a44c-1a9a-4146-b23c-bdb46974db19" />🧪 Experiment 1 – Component Lazy Loading 🎯 Aim
 
 To optimize frontend performance by implementing lazy loading of components in a React Single Page Application using React.lazy() and Suspense.
 
@@ -25,9 +25,14 @@ Reduced initial bundle size.
 Faster application startup.
 
 Improved user experience with loading indicators.
-<img width="1920" height="1080" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/d3a94e68-489d-4cb1-8c1d-493d11911a6a" />
-<img width="1920" height="1080" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/2845726c-a180-4a84-8c0b-ae0a121aba33" />
-<img width="1920" height="1080" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/e99c24eb-0fe3-4df2-bd14-779a2318a1ad" />
+
+<img width="1904" height="923" alt="Screenshot 2026-02-19 150016" src="https://github.com/user-attachments/assets/2eff22d3-9e36-46e2-9a11-300de6d3c4a6" />
+<img width="904" height="837" alt="Screenshot 2026-02-19 150023" src="https://github.com/user-attachments/assets/c1916680-6632-4f70-acbd-fd7c29315cfd" />
+<img width="1876" height="865" alt="Screenshot 2026-02-19 150041" src="https://github.com/user-attachments/assets/27f2c3af-7094-422c-83d2-4b9b64fbdc57" />
+<img width="1876" height="908" alt="Screenshot 2026-02-19 150226" src="https://github.com/user-attachments/assets/e5ce44e3-b2c0-42d6-b2ef-c63f1deb813c" />
+<img width="1875" height="888" alt="Screenshot 2026-02-19 150234" src="https://github.com/user-attachments/assets/786f6072-f5ef-4110-85ed-52dc1dca0c8f" />
+<img width="1877" height="840" alt="Screenshot 2026-02-19 150251" src="https://github.com/user-attachments/assets/47428d30-ded9-4eba-8e81-ca14a6c100f3" />
+
 
 
 
