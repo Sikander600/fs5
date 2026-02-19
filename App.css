@@ -1,7 +1,7 @@
 /* body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background: linear-gradient(135deg, #141e30, #243b55);
   color: white;
 }
 
@@ -11,9 +11,8 @@
 }
 
 .title {
-  font-size: 32px;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .nav {
@@ -23,8 +22,7 @@
 .nav-link {
   text-decoration: none;
   color: white;
-  margin: 0 20px;
-  font-size: 18px;
+  margin: 0 15px;
   padding: 10px 20px;
   border: 2px solid white;
   border-radius: 8px;
@@ -33,8 +31,7 @@
 
 .nav-link:hover {
   background-color: white;
-  color: #1e3c72;
-  transform: scale(1.05);
+  color: #243b55;
 }
 
 .content {
@@ -43,17 +40,12 @@
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.1);
+  width: 420px;
   padding: 30px;
   border-radius: 15px;
-  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
 }
 
 .skills {
@@ -63,14 +55,14 @@
 
 .skills li {
   background: white;
-  color: #1e3c72;
+  color: #243b55;
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px;
   font-weight: bold;
 }
 
-.loading {
+.loader {
   font-size: 24px;
   color: yellow;
   animation: blink 1s infinite;
@@ -83,21 +75,13 @@
 } */
  body {
   margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(135deg, #141e30, #3a0ca3, #4361ee);
-  background-size: 200% 200%;
-  animation: gradientMove 8s ease infinite;
-  color: #f8f9fa;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
 
 .container {
@@ -110,8 +94,10 @@
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav {
@@ -120,21 +106,19 @@
 
 .nav-link {
   text-decoration: none;
-  color: #ffffff;
-  margin: 0 15px;
-  font-size: 17px;
+  color: #00f5a0;
+  margin: 0 12px;
   padding: 10px 22px;
+  border: 2px solid #00f5a0;
   border-radius: 30px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .nav-link:hover {
-  background: #ffffff;
-  color: #3a0ca3;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
-  transform: translateY(-3px);
+  background: #00f5a0;
+  color: #0f2027;
+  box-shadow: 0 0 15px #00f5a0;
 }
 
 .content {
@@ -143,19 +127,18 @@
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.08);
+  width: 420px;
   padding: 35px;
   border-radius: 20px;
-  width: 420px;
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
 }
 
 .skills {
@@ -164,24 +147,23 @@
 }
 
 .skills li {
-  background: linear-gradient(90deg, #7209b7, #4361ee);
-  color: white;
+  background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  color: #0f2027;
   margin: 12px 0;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 10px;
   font-weight: 600;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .skills li:hover {
   transform: scale(1.05);
-  opacity: 0.9;
 }
 
-.loading {
-  font-size: 22px;
+.loader {
+  font-size: 24px;
+  color: #00f5a0;
   margin-top: 20px;
-  color: #ffd60a;
   animation: pulse 1.2s infinite;
 }
 

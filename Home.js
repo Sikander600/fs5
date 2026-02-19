@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div className="card">
-      <h2>Welcome</h2>
-      <h3>Sikandar</h3>
+      <h2>Home Page</h2>
+      <h3>SIKANDAR</h3>
       <p><strong>UID:</strong> 23BAI70600</p>
-      <p>This is the Home Page of Lazy Loading Experiment.</p>
+      <p>This page is lazy loaded when route is accessed.</p>
     </div>
   );
 }
